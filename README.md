@@ -57,3 +57,7 @@ Voorbeeld om een zin te voorspellen:
 ```python
 direction, steps = prediction_multi(model, "ga twee stappen naar beneden", tokenizer)
 print(f"Richting: {direction}, Stappen: {steps}")
+```
+
+# Auteur
+## Ahmad Mahmoud Al Dibo
