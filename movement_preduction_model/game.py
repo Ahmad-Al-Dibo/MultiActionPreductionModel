@@ -96,7 +96,7 @@ while running:
 
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RETURN:
-                user_command = input("Typ een opdracht (zoals 'ga naar voren en dan 2 stappen naar links'): ")
+                user_command = input("Typ een opdracht (zoals 'ga twee stappen naar boven '): ")
                 direction, steps = prediction_multi(model, user_command, tokenizer)
 
                 commands = [{"direction": direction, "steps": steps}]
